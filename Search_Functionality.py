@@ -36,7 +36,7 @@ class GoogleSearchFunc:
         # Close the webdriver instance
         driver.close()
 
-    def run_all(self):
+    def run(self):
         self.search_functionality()
 
 
