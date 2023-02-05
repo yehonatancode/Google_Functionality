@@ -1,0 +1,17 @@
+This file is completely dedicated to sharing general information about the project.
+
+Goal: Test Google search feature.
+How: 1) Search is available amd results are given.
+     2) Picking a suggestion is available and results are given.
+
+In our case, make a query about Albert Einstein and verify it has been searched and answered, followed by picking Google suggestion
+regarding Einstein's IQ
+
+The code used a common library named Selenium which is very common for web automation, and assertions were made with the help
+of a function that generates the content of the page source, hence allowing to ensure the query, indeed, has been compiled and searched.
+
+How to use:
+        Make sure you have PyCharm, or any python IDE of your preference.
+        Make sure you have selenium installed on your system/IDE - pip install selenium in Terminal
+        Copy/Clone this project into your favorite editor
+        Run (Other options such as .exe may be added in the near time)
